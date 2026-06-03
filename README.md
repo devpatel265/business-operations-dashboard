@@ -155,41 +155,6 @@ The dashboard is designed as an executive overview page.
 - KPI reporting and business insight writing
 - Data conversion thinking using both normalized SQL tables and a flattened CSV dataset
 
-## Interview Preparation
-
-### How to Describe This Project to Recruiters
-
-You can say:
-
-> I built a Business Operations Dashboard project using a realistic sales dataset with customers, products, orders, and transactions. I created SQL scripts to build the database, load sample data, and analyze revenue, customer growth, top products, and category performance. I also designed a Power BI-style dashboard with KPIs and visuals that answer common business questions.
-
-For a Data Analyst role, emphasize SQL analysis, dashboard design, and insights.
-
-For a Business Analyst role, emphasize business questions, KPI tracking, and explaining results to stakeholders.
-
-For a Data Conversion Engineer role, emphasize the normalized SQL structure, the flattened CSV output, and the ability to prepare data for reporting tools.
-
-### Common Interview Questions and Answers
-
-**Question:** Why did you separate orders and transactions?
-
-**Answer:** An order can contain multiple products, so the order table stores the order header and the transactions table stores each product line. This avoids repeating order-level information and makes revenue analysis more accurate.
-
-**Question:** Why did you filter to completed orders?
-
-**Answer:** Pending or cancelled orders should not be counted as earned revenue. Filtering to completed orders keeps the revenue KPI accurate.
-
-**Question:** What was the most important insight?
-
-**Answer:** June was the strongest revenue month, and hardware was the largest category. This suggests the business may be growing because of higher-value hardware purchases.
-
-**Question:** What would you improve with more time?
-
-**Answer:** I would add profit margin, sales rep performance, returns, customer lifetime value, and a date table for stronger Power BI time intelligence.
-
-**Question:** How would you validate this data?
-
-**Answer:** I would check for duplicate primary keys, missing foreign keys, negative quantities, orders without transactions, transactions without matching products, and order dates that occur before customer signup dates.
 
 ## How to Use This Project
 
