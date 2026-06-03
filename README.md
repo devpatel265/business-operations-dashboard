@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The **Business Operations Dashboard** is a beginner-friendly analytics portfolio project that shows how business data can be organized, queried, and turned into dashboard insights.
+The **Business Operations Dashboard** is an analytics project that shows how business data can be organized, queried, and turned into dashboard insights.
 
 The project uses a realistic sample business that sells hardware, software, furniture, accessories, and services to small and mid-sized organizations. It demonstrates SQL table design, sample data loading, KPI analysis, Power BI dashboard planning, and business insight communication.
 
